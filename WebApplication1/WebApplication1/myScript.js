@@ -6,8 +6,8 @@ console.log(' calling feature 1');
 
 
 let sum = function() {
-    let x1 = 1;
-    let x2 = 2;
-    let result = x1 + x2;
+    var x1 = 1;
+    var x2 = 2;
+    var result = x1 + x2;
     return result;
 }
